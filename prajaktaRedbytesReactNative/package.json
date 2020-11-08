@@ -14,12 +14,16 @@
     "@react-navigation/drawer": "^5.10.6",
     "@react-navigation/native": "^5.8.6",
     "@react-navigation/stack": "^5.12.3",
+    "axios": "^0.21.0",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-elements": "^3.0.0-alpha.1",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-reanimated": "^1.13.1",
     "react-native-safe-area-context": "^3.1.8",
-    "react-native-screens": "^2.13.0"
+    "react-native-screens": "^2.13.0",
+    "react-native-vector-icons": "^7.1.0",
+    "use-count-up": "^2.2.5"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",

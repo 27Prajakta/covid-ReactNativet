@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Image } from 'react-native';
 
 export class LandingScreen extends Component {
 
-    constructor(props) {
-        super(props);
-
+    componentDidMount(){
+        setTimeout(()=>{
+            this.props.navigation.navigate('Login')
+        }, 1000)
     }
 
     render() {
         return (
-            <View>
-                <Text>LandingScreen</Text>
-                <Button
-                title={"Click"} 
-                onPress={() => this.props.navigation.navigate('Home')}
+            <View style={{backgroundColor:'#fff', flex:1}}>
+                <Image 
+                  style={{height:50, width:'60%', alignSelf:'center', marginTop:'50%'}}
+                  source={require('../images/image.png')}
                 />
             </View>
         )
